@@ -11,7 +11,7 @@ extended: true
 }));
 
 //Add  rounting 
-// index page
+// index page api
 app.get('/', function (req, res) {
     res.send('Express is running');
 });
